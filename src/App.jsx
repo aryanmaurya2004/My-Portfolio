@@ -1,10 +1,10 @@
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
-import Journey from "./components/Journey";
-import Skills from "./components/Skills";
+import Journey from "./components/journey";
+import Skills from "./components/skills";
 import Projects from "./components/project";
 import WhyHireMe from "./components/whyhireme";
-import Contact from "./components/Contact";
+import Contact from "./components/contact";
 
 
 function App() {
@@ -17,8 +17,6 @@ function App() {
       <Projects />
       <WhyHireMe />
       <Contact />
-      <heroImage />
-      
     </>
   );
 }
